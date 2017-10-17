@@ -1,6 +1,13 @@
+$menu-kleur: #ca5050;
+
 #container {
   width: 500px;
   margin: auto;
+  margin-top: 83px;
+  height: 68px;
+}
+body {
+  background-color: #59ef59;
 }
 .button {
   width: 200px;
@@ -19,8 +26,7 @@
 
     &:hover {
       background-color: red;
-    }
-  }
+    }}
   &--blauw {
     background-color: #5050ff;
     border-bottom: #3b3bd4 solid 3px;
@@ -28,7 +34,35 @@
 
     &:hover {
       background-color: blue;
-    }
-  }
+  }}}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: $menu-kleur;
+  text-align: center;
 
+ .nav--button {
+   display: inline-block;
+     width: 70px;
+     height: 100%;
+     background-color: $menu-kleur;
+     line-height: 47px;
+     text-align: center;
+     margin: auto;
+     color: antiquewhite;
+     transition: 0.5s;
+
+     &:hover {
+       background-color: #b73c3c;
+     }}}
+
+#form {
+  width: 500px;
+  margin: auto;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 10px;
 }
