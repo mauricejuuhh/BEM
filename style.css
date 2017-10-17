@@ -3,31 +3,30 @@
   margin: auto;
   margin-top: 83px;
   height: 68px; }
+  #container .container__button {
+    width: 200px;
+    height: 50px;
+    float: left;
+    line-height: 45px;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px; }
+    #container .container__button--rood {
+      background-color: #e43c3c;
+      border-bottom: #ad1e1e solid 3px;
+      border-right: #ad1e1e solid 2px; }
+      #container .container__button--rood:hover {
+        background-color: red; }
+    #container .container__button--blauw {
+      background-color: #5050ff;
+      border-bottom: #3b3bd4 solid 3px;
+      border-right: #3b3bd4 solid 2px; }
+      #container .container__button--blauw:hover {
+        background-color: blue; }
 
 body {
   background-color: #59ef59; }
-
-.button {
-  width: 200px;
-  height: 50px;
-  float: left;
-  line-height: 45px;
-  color: white;
-  margin-left: 10px;
-  text-align: center;
-  border-radius: 5px; }
-  .button--rood {
-    background-color: #e43c3c;
-    border-bottom: #ad1e1e solid 3px;
-    border-right: #ad1e1e solid 2px; }
-    .button--rood:hover {
-      background-color: red; }
-  .button--blauw {
-    background-color: #5050ff;
-    border-bottom: #3b3bd4 solid 3px;
-    border-right: #3b3bd4 solid 2px; }
-    .button--blauw:hover {
-      background-color: blue; }
 
 nav {
   position: fixed;

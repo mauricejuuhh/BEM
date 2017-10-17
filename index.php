@@ -10,7 +10,7 @@
   <div class="nav--button">klik</div><div class="nav--button">niet</div><div class="nav--button">op</div><div class="nav--button">mij</div>
 </nav>
     <div id="container">
-    <div class="button button--rood">Ik ben rood</div><div class="button button--blauw">ik ben blauw</div>
+    <div class="container__button container__button--rood">Ik ben rood</div><div class="container__button container__button--blauw">ik ben blauw</div>
 
 
     </div>
